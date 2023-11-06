@@ -21,6 +21,8 @@
   .navbar {
     background: BLACK; /* Vinotinto color */
     height: 4rem;
+    margin: 0 5% 0 5%;
+    padding: 0 3% 0 3%;
   }
 
   .navbar-brand .img-logo {
@@ -210,7 +212,7 @@
   }
   
   .carousel {
-    height: 680px;
+    height: 700px;
     margin: 0 auto;
   }
   
@@ -224,13 +226,24 @@
   }
   
   .carousel .carousel-item img {
-    height: 680px;
+    height: 700px;
     object-fit: cover;
     background-repeat: no-repeat;
   }
   
   .carousel .carousel-item h5 {
+    color: white;
     text-align: center;
+    font-weight: 500;
+    font-size: larger;
+    margin-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); /* Agregamos un sombreado al texto para mejor legibilidad */
+  }
+
+  .carousel-control-next {
+    opacity: 1;
+    pointer-events: auto;
   }
 
   .containerGalery {
